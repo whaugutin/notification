@@ -53,33 +53,88 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             ElevatedButton(
               onPressed: showImmediateNotification,
+              style: ElevatedButton.styleFrom(
+                minimumSize: const Size(350, 70),
+                // backgroundColor: Colors.blue[700],
+                foregroundColor: Colors.black,
+                side: const BorderSide(color: Colors.black, width: 1.0),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+                textStyle: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              ),
               child: Text("Immediate Notification"),
             ),
-            Text("Voye yon notifikasyon imedyatman"),
+            Text(""),
             SizedBox(height: 30.0,),
             ElevatedButton(
                 onPressed: scheduleNotification,
+                style: ElevatedButton.styleFrom(
+                  minimumSize: const Size(350, 70),
+                  // backgroundColor: Colors.blue[700],
+                  foregroundColor: Colors.black,
+                  side: const BorderSide(color: Colors.black, width: 1.0),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+                  textStyle: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                ),
                 child: Text("Scheduled Notification")
             ),
-            Text("Pwograme yon notifikasyon pou 10 segonn pita"),
+            Text(""),
             SizedBox(height: 30.0,),
             ElevatedButton(
                 onPressed: repeatNotification,
+                style: ElevatedButton.styleFrom(
+                  minimumSize: const Size(350, 70),
+                  // backgroundColor: Colors.blue[700],
+                  foregroundColor: Colors.black,
+                  side: const BorderSide(color: Colors.black, width: 1.0),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+                  textStyle: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                ),
                 child: Text("Repeating Notification")
             ),
-            Text("Voye notifikasyon ki repete chak minit"),
+            Text(""),
             SizedBox(height: 30.0,),
             ElevatedButton(
                 onPressed: bigTextNotification,
+                style: ElevatedButton.styleFrom(
+                  minimumSize: const Size(350, 70),
+                  // backgroundColor: Colors.blue[700],
+                  foregroundColor: Colors.black,
+                  side: const BorderSide(color: Colors.black, width: 1.0),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+                  textStyle: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                ),
                 child: Text("Big Text Notification")
             ),
-            Text("Voye notifikasyon ak tèks long"),
+            Text(""),
             SizedBox(height: 30.0,),
             ElevatedButton(
                 onPressed: imageNotification,
+                style: ElevatedButton.styleFrom(
+                  minimumSize: const Size(350, 70),
+                  // backgroundColor: Colors.blue[700],
+                  foregroundColor: Colors.black,
+                  side: const BorderSide(color: Colors.black, width: 1.0),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+                  textStyle: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                ),
                 child: Text("Image Notification")
             ),
-            Text("Voye notifikasyon ak imaj"),
+            Text(""),
           ],
         ),
       ),
