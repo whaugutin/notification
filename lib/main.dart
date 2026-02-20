@@ -12,10 +12,10 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   tz.initializeTimeZones();
 
-  const AndroidInitializationSettings androidSettings =
-  AndroidInitializationSettings('@mipmap/ic_launcher');
-  const InitializationSettings initSettings =
-  InitializationSettings(android: androidSettings);
+  const AndroidInitializationSettings androidSettings =  AndroidInitializationSettings('@mipmap/ic_launcher');
+
+  const InitializationSettings initSettings =  InitializationSettings(android: androidSettings);
+
   await notificationsPlugin.initialize(initSettings);
   runApp(const MyApp());
 }
